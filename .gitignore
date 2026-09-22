@@ -1,0 +1,38 @@
+# Evidence databases and extracted content are never committed.
+# They are large, they are derived from disk images, and they are rebuildable
+# by running the pipeline against the corpora named in the dissertation.
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Disk images and evidence containers
+*.E0*
+*.dd
+*.img
+*.raw
+*.aff4
+
+# Extracted or staged artefacts
+integrity_check_result.txt
+vt_results.db
+hashes*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# The university logo is used on the dissertation cover only. It is the
+# university's brand asset, not part of this code, and is never committed.
+figures/uop_logo.png

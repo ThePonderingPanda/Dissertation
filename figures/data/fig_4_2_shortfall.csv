@@ -1,0 +1,10 @@
+Evidence set,Deduplication rate (%),Shortfall vs additive (percentage points)
+Casper-rw,56.52,43.9
+Data Leakage PC,31.34,17.29
+NTFS1,31.22,24.68
+Hacking Case,18.03,10.05
+Android mtd6,0.67,0.3
+Android mtd7,0.46,0.13
+Android mtd8,0.43,0.34
+Android sdcard,0.11,0.11
+HFS+ test image,0.0,0.0

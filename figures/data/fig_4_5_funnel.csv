@@ -1,0 +1,5 @@
+Stage,Count remaining,Removed at this stage (%)
+Files found on the image,80260,
+Unique contents after deduplication,47432,40.9
+Not recognised by the NSRL,8053,83.02
+Flagged by VirusTotal,34,99.58
