@@ -135,14 +135,15 @@ white printing and remain readable if the dissertation is photocopied.
 
 ---
 
-## For the Generative AI declaration
+## Checking a figure against its data
 
-The handbook's section 14 lists "data visualisation" as an assistive use that must
-be declared. The honest description is: the measurements, the queries that produced
-them and the decisions about what each figure should show are the author's; the
-plotting code was written with AI assistance and then checked against the source
-data. The CSVs in this folder are what makes that checkable, and the errors found
-during that checking are recorded below.
+Every chart's values are in `data/` as a CSV, carrying the raw counts as well as
+the percentages. Any figure can therefore be checked arithmetically without opening
+a database or running a line of this code: divide the counts yourself and compare.
+
+Each value was recomputed from those raw counts and checked against Chapter 4
+before submission. Where that checking found an error, it is recorded below rather
+than quietly corrected.
 
 ---
 
